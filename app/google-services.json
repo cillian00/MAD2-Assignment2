@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "528433932199",
+    "firebase_url": "https://mad2-assignment1-3d555-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "mad2-assignment1-3d555",
+    "storage_bucket": "mad2-assignment1-3d555.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528433932199:android:2e91a66fc2ab3a9decb882",
+        "android_client_info": {
+          "package_name": "ie.wit.donationx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528433932199-puh60oaag8335fmde8svhl7ug28te761.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ie.wit.donationx",
+            "certificate_hash": "8db167f8b1ab57c92eb4863b0d615fcb02aecbd3"
+          }
+        },
+        {
+          "client_id": "528433932199-8qulqq7hap9et71g46b0ocf0ef07magp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF9zjMUSimlKkwNqe78yiX7ucSPr9SAW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528433932199-8qulqq7hap9et71g46b0ocf0ef07magp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

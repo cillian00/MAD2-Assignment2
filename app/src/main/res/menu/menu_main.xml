@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/GymMapsFragment"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="Map"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/gymActivityFragment"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/menu_addgym"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item_filter"
+        android:title="Filter"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.widget.Spinner" />
+</menu>

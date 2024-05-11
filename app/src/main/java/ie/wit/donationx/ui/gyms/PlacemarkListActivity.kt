@@ -32,7 +32,7 @@ class PlacemarkListActivity : AppCompatActivity(), PlacemarkListener {
 
         val layoutManager = LinearLayoutManager(this)
         binding.recyclerView.layoutManager = layoutManager
-        binding.recyclerView.adapter = PlacemarkAdapter(app.gyms.findAll(),this)
+        binding.recyclerView.adapter = PlacemarkAdapter(app.gyms.findAll().toMutableList(),this)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

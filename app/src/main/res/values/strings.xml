@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">DonationX</string>
-    <string name="donateTitle">Welcome Homer</string>
+    <string name="donateTitle">Welcome McGregor</string>
     <string name="donateSubtitle">Please Give Generously</string>
     <string name="donateButton">Donate</string>
     <string name="paypal">PayPal</string>
@@ -20,13 +20,12 @@
     <string name="group_communicate">Communicate</string>
 
     <string name="nav_header_title">DonationX (Lab)</string>
-    <string name="nav_header_subtitle">voteforhomer@gmail.com</string>
+    <string name="nav_header_subtitle">voteforMcGregor@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
 
     <string name="action_about">About Us</string>
-    <string name="aboutus_title">Homer for President !!</string>
-    <string name="aboutus_message">Hi, I\'m Homer\n\nPlease vote for me.\n\n Please Please Please Please!!</string>
-
+    <string name="aboutus_title">McGregor for President !!</string>
+    <string name="aboutus_message">Welcome to my gym app\nPlease Donate\nWe\'re very low on funds</string>
     <string name="donationsNotFound">No Donations Yet…\nGo Make a Donation!</string>
     <string name="donationError">Error : Couldn\'t Make a Donation…</string>
     <string name="donationDetails">Donation Details</string>
@@ -99,6 +98,7 @@
     <string name="hint_gymActivtiy">Activity Status\n</string>
     <string name="default_web_client_id">528433932199-puh60oaag8335fmde8svhl7ug28te761.apps.googleusercontent.com\n</string>
     <string name="default_username">john\n</string>
+    <string name="action_theme">Theme \n</string>
     <string-array name="filter_options">
         <item></item>
         <item>Team Ryano</item>

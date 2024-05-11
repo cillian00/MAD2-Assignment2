@@ -3,17 +3,23 @@ package ie.wit.donationx.adapters
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import androidx.room.util.copy
 import com.squareup.picasso.Picasso
 import ie.wit.donationx.databinding.CardGymBinding
+import ie.wit.donationx.main.DonationXApp
 import org.wit.gym.models.GymModel
 
 interface PlacemarkListener {
     fun onPlacemarkClick(placemark: GymModel)
 }
 
-class PlacemarkAdapter constructor(private var gyms: List<GymModel>,
-                                   private val listener: PlacemarkListener) :
+
+
+class PlacemarkAdapter constructor(
+    var gyms: MutableList<GymModel>,
+    private val listener: PlacemarkListener) :
         RecyclerView.Adapter<PlacemarkAdapter.MainHolder>() {
+    lateinit var app: DonationXApp
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MainHolder {
         val binding = CardGymBinding
@@ -28,6 +34,11 @@ class PlacemarkAdapter constructor(private var gyms: List<GymModel>,
     }
 
     override fun getItemCount(): Int = gyms.size
+    fun removeAt(position: Int) {
+        gyms.removeAt(position)
+        notifyItemRemoved(position)
+    }
+
 
     class MainHolder(private val binding : CardGymBinding) :
             RecyclerView.ViewHolder(binding.root) {

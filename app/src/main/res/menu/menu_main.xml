@@ -17,4 +17,10 @@
         android:title="Filter"
         app:showAsAction="always|collapseActionView"
         app:actionViewClass="android.widget.Spinner" />
+
+    <item
+        android:id="@+id/theme_change"
+        android:title="ThemeChange"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_add" />
 </menu>

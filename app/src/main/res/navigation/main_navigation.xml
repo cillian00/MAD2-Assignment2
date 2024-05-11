@@ -69,7 +69,15 @@
         <action
             android:id="@+id/action_gymFragment_to_GymMapsFragment"
             app:destination="@id/GymMapsFragment" />
+        <action
+            android:id="@+id/action_gymFragment_to_gymFragment2"
+            app:destination="@id/theme_change" />
     </fragment>
+    <fragment
+        android:id="@+id/theme_change"
+        android:name="ie.wit.donationx.ui.gyms.GymFragment"
+        android:label="Gym Fragments"
+        tools:layout="@layout/fragment_gyms"/>
     <fragment
         android:id="@+id/gymActivityFragment"
         android:name="ie.wit.donationx.ui.gyms.GymActivityFragment"

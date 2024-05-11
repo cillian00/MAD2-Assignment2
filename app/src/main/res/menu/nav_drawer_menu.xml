@@ -23,13 +23,19 @@
     <item android:title="@string/group_communicate">
         <menu>
             <item
+                android:id="@+id/nav_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/action_send" />
+            <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
                 android:title="@string/action_share" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/action_send" />
+                android:id="@+id/theme_switch"
+                android:icon="@drawable/googleg_disabled_color_18"
+                android:title="@string/action_theme" />
         </menu>
     </item>
     <item android:title="Access Control">

@@ -20,7 +20,6 @@ class DonationXApp : Application() {
     override fun onCreate() {
         super.onCreate()
         Timber.plant(Timber.DebugTree())
-      //  donationsStore = DonationManager()
         placemarks = PlacemarkJSONStore(applicationContext)
         gyms = GymCloudStore(applicationContext)
         val database = Firebase.database
